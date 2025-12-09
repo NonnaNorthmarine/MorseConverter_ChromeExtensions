@@ -1,0 +1,2 @@
+# MorseConverter_ChromeExtensions
+モールス信号を変換するChrome拡張機能です。
