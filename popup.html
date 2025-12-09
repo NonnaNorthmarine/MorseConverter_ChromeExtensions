@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Morse Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Morse Converter</h1>
+    
+    <div class="input-group">
+      <label>テキスト (和文/欧文)</label>
+      <textarea id="inputText" placeholder="ここに入力... (例: エゾユキウサギ)"></textarea>
+    </div>
+
+    <div class="controls">
+      <button id="toMorseBtn">↓ テキストを信号に変換</button>
+      <button id="toTextBtn">↑ 信号をテキストに復号</button>
+      <button id="clearBtn" class="secondary">クリア</button>
+    </div>
+
+    <div class="input-group">
+      <label>モールス信号 (短点・ と長点－)</label>
+      <textarea id="outputMorse" placeholder="変換結果がここに出ます..."></textarea>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
